@@ -14,7 +14,7 @@ d Authors
 d Giuseppe De Luca, University of Palermo
 d Jan R. Magnus, Vrije Universiteit Amsterdam
 d
-d Distribution date: 2025-12-15
+d Distribution date: 13 August 2025
 d
 d Support: giuseppe.deluca@unipa.it
 
@@ -80,4 +80,5 @@ f xtwals.sthlp
 f xtwals_p.ado
 f xtwals_p.sthlp
 f xtwals_postestimation.sthlp
+
 
