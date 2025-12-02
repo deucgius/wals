@@ -1,0 +1,83 @@
+v 3
+d wals. weighted-average least squares
+d The wals package includes 5 estimation commands: 
+d   - wals fits linear models with iid errors, 
+d   - hetwals fits linear models with multiplicative heteroskedasticity,
+d   - ar1was fits linear models with AR(1) errors,
+d   - xtwas fits fixed-effects and random-effects panel data models with either iid or AR(1) errors,
+d   - glmwals fits generalized linear models.
+d 
+d For further details, visit the website of the wals project: 
+d www.wals-project.com
+d
+d Authors
+d Giuseppe De Luca, University of Palermo
+d Jan R. Magnus, Vrije Universiteit Amsterdam
+d
+d Distribution date: 2025-12-15
+d
+d Support: giuseppe.deluca@unipa.it
+
+f ar1wals.ado
+f ar1wals.sthlp
+f ar1wals_p.ado
+f ar1wals_p.sthlp
+f ar1wals_postestimation.sthlp
+
+f glmwals.ado
+f glmwals.sthlp
+f glmwals_l01.ado
+f glmwals_l02.ado
+f glmwals_l03.ado
+f glmwals_l05.ado
+f glmwals_l06.ado
+f glmwals_l07.ado
+f glmwals_l08.ado
+f glmwals_l09.ado
+f glmwals_l10.ado
+f glmwals_l11.ado
+f glmwals_l12.ado
+f glmwals_mu.ado
+f glmwals_p.ado
+f glmwals_p.sthlp
+f glmwals_postestimation.sthlp
+f glmwals_v1.ado
+f glmwals_v2.ado
+f glmwals_v3.ado
+f glmwals_v4.ado
+f glmwals_v5.ado
+
+f hetwals.ado
+f hetwals.sthlp
+f hetwals_p.ado
+f hetwals_p.sthlp
+f hetwals_postestimation.sthlp
+
+f lcwals.ado
+f lcwals.sthlp
+f lwalsgaussint.mlib
+
+f margwals.ado
+f margwals.sthlp
+
+f wals.ado
+f wals.sthlp
+f wals_p.ado
+f wals_p.sthlp
+f wals_parse_regressors.ado
+F wals_pm_tsm_laplace.dta
+F wals_pm_tsm_weibull.dta
+F wals_pm_tsm_subbotin.dta
+F wals_pm_tsm_pareto.dta
+F wals_pm_tsm_cauchy.dta
+F wals_pm_tsm_log.dta
+F wals_pm_tsm_horseshoe.dta
+f wals_postestimation.sthlp
+f walsci.ado
+
+f xtwals.ado
+f xtwals.sthlp
+f xtwals_p.ado
+f xtwals_p.sthlp
+f xtwals_postestimation.sthlp
+

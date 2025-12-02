@@ -1,0 +1,15 @@
+v 3
+d weighted-average least squares (wals) package
+
+d Authors
+d Giuseppe De Luca, University of Palermo
+d Jan R. Magnus, Vrije Universiteit Amsterdam
+d
+d Distribution date: 2025-12-15
+d
+d Support: giuseppe.deluca@unipa.it
+d
+d For further details, visit the website of the wals project: 
+d www.wals-project.com
+
+p wals    wals estimation of linear models with iid errors
