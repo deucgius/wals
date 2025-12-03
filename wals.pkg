@@ -10,6 +10,7 @@ d We also offer two post-estimation commands:
 d   - lcwals for wals estimation of linear combinations of the focus and auxiiary parameters
 d   - margwals for wals estimation of nonlinear functions of the focus and auxiiary parameters 
 d For further details, visit the website of the wals project: 
+d
 d           www.wals-project.com
 d
 d Authors
@@ -81,6 +82,7 @@ f xtwals.sthlp
 f xtwals_p.ado
 f xtwals_p.sthlp
 f xtwals_postestimation.sthlp
+
 
 
 
