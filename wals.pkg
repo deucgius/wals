@@ -1,21 +1,22 @@
 v 3
 d wals. weighted-average least squares
-d The wals package includes 5 estimation commands: 
+d The wals package currently includes 5 estimation commands: 
 d   - wals fits linear models with iid errors, 
 d   - hetwals fits linear models with multiplicative heteroskedasticity,
 d   - ar1was fits linear models with AR(1) errors,
 d   - xtwas fits fixed-effects and random-effects panel data models with either iid or AR(1) errors,
 d   - glmwals fits generalized linear models.
-d 
+d We also offer two post-estimation commands:
+d   - lcwals for wals estimation of linear combinations of the focus and auxiiary parameters
+d   - margwals for wals estimation of nonlinear functions of the focus and auxiiary parameters 
 d For further details, visit the website of the wals project: 
-d www.wals-project.com
+d           www.wals-project.com
 d
 d Authors
 d Giuseppe De Luca, University of Palermo
 d Jan R. Magnus, Vrije Universiteit Amsterdam
 d
 d Distribution date: 13 August 2025
-d
 d Support: giuseppe.deluca@unipa.it
 
 f ar1wals.ado
@@ -80,5 +81,6 @@ f xtwals.sthlp
 f xtwals_p.ado
 f xtwals_p.sthlp
 f xtwals_postestimation.sthlp
+
 
 
